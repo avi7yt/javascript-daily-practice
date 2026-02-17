@@ -34,8 +34,3 @@ if (age < 13) {
 }else{
     console.log("You are an adult");
 }
-
-
-
-
-
