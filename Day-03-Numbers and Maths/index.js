@@ -91,6 +91,9 @@ console.log(Math.log(10));  //natural log
 console.log(Math.log10(100));  //base 10
 console.log(Math.log2(8));  //base 2
 
+// One interesting thing I discovered:
+// console.log(0.1+0.2 !== 0.3); // true 
+// Floating point precision issue
 
 
 
