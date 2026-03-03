@@ -2,14 +2,14 @@
 
 // without new
 let num =  Number("12");
-// console.log(typeof num); //converts primitve number.
+console.log(typeof num); //converts primitve number.
 
 // with new 
 let objNum = new Number("12");
-// console.log(typeof objNum);
+console.log(typeof objNum);
 
-// console.log(num == objNum); //check equality - true
-// console.log(num === objNum); //strict equality - false
+console.log(num == objNum); //check equality - true
+console.log(num === objNum); //strict equality - false
 
 // Number methods:
 let newNum = 12;
@@ -92,7 +92,7 @@ console.log(Math.log10(100));  //base 10
 console.log(Math.log2(8));  //base 2
 
 // One interesting thing I discovered:
-// console.log(0.1+0.2 !== 0.3); // true 
+console.log(0.1+0.2 !== 0.3); // true 
 // Floating point precision issue
 
 
