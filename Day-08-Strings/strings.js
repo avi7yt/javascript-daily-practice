@@ -87,8 +87,32 @@ console.log(text.toLowerCase()); //hello
     console.log(str4.charCodeAt(0)); //74
 
 // 6. Searching Methods 
+
+// a. indexOf()- search from start.
+    let text7 = "Hello World";
+    console.log(text7.indexOf("World")); //6
+
+// b. lastIndexOf()- search from end.
+    console.log(text7.lastIndexOf("o")); //7
+
+// c. search()- used with regex.
+    console.log(text7.search("World")); //6
     
+// 7. Advanced String Methods (Developer Level)
+
+// a. match()- used with regex.
+    let text8 = "I love Javascript";
+    console.log(text8.match("Javascript"));
+
+// b. matchAll()- Find multiple matches.
+    let text9 = "cat dog cat";
+    let result = text9.matchAll(/cat/g);
+    console.log(result);
     
+// c. padStart(), padEnd - Used in OTP, IDs, formatting numbers
+    let num = "5";
+    console.log(num.padStart(3,"0")); //005
+    console.log(num.padEnd(3,"0")); //500
     
     
     
